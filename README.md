@@ -11,20 +11,19 @@ Mac:
 
 Posicionate en el directorio donde vas a descargar el repositorio y ejecuta el comando
 
- ´´´
+ ```
  git clone https://github.com/softdirex/vista-contactos
- ´´´
+ ```
 
 Una vez finalizada la descarga entra a la carpeta vista-contactos
-
-´´´
- cd vista-contactos
-´´´
+```
+cd vista-contactos
+```
 
 Instala todas las dependencias de angular con
 
-´´´
+```
 npm install
-´´´
+```
 
 Ejecuta `ng serve` para probar la aplicaciín. abre tu navegador y dirígete a `http://localhost:4200/contactos`.

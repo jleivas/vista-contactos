@@ -27,9 +27,10 @@ const routes: Routes = [
     component: EditarContactoComponent,
     data: { title: 'Editar Contacto' }
   },
-  { path: '',
-    redirectTo: '/contactos ',
-    pathMatch: 'full'
+  { 
+    path: '**',
+    component: ContactosComponent,
+    data: { title: 'Lista de Contactos' }
   }
 ];
 
